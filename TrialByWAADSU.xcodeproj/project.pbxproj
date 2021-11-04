@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0922AFF01EE541BD3A197826 /* Pods_TrialByWAADSU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489F80D75344C023ED3C25B0 /* Pods_TrialByWAADSU.framework */; };
+		E4DAEEC82733E9A300D8EC24 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DAEEC72733E9A300D8EC24 /* Spinner.swift */; };
 		E4F19D1D27339E8D00CFC0E9 /* TrialByWAADSUApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D1C27339E8D00CFC0E9 /* TrialByWAADSUApp.swift */; };
-		E4F19D1F27339E8D00CFC0E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D1E27339E8D00CFC0E9 /* ContentView.swift */; };
+		E4F19D1F27339E8D00CFC0E9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D1E27339E8D00CFC0E9 /* MainView.swift */; };
 		E4F19D2127339E8F00CFC0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F19D2027339E8F00CFC0E9 /* Assets.xcassets */; };
 		E4F19D2427339E8F00CFC0E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F19D2327339E8F00CFC0E9 /* Preview Assets.xcassets */; };
 		E4F19D2E27339E9000CFC0E9 /* TrialByWAADSUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D2D27339E9000CFC0E9 /* TrialByWAADSUTests.swift */; };
 		E4F19D3827339E9000CFC0E9 /* TrialByWAADSUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D3727339E9000CFC0E9 /* TrialByWAADSUUITests.swift */; };
 		E4F19D3A27339E9000CFC0E9 /* TrialByWAADSUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D3927339E9000CFC0E9 /* TrialByWAADSUUITestsLaunchTests.swift */; };
+		E4F19D4727339EBE00CFC0E9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D4627339EBE00CFC0E9 /* ViewModel.swift */; };
+		E4F19D4927339F6400CFC0E9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D4827339F6400CFC0E9 /* AppState.swift */; };
+		E4F19D4B2733A00100CFC0E9 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D4A2733A00100CFC0E9 /* Route.swift */; };
+		E4F19D4D2733A0E300CFC0E9 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D4C2733A0E300CFC0E9 /* AppError.swift */; };
+		E4F19D512733A2AC00CFC0E9 /* GeoDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D502733A2AC00CFC0E9 /* GeoDataFetcher.swift */; };
+		E4F19D552733A47700CFC0E9 /* GeoDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D542733A47700CFC0E9 /* GeoDataParser.swift */; };
+		E4F19D572733AAB400CFC0E9 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D562733AAB400CFC0E9 /* ErrorHandler.swift */; };
+		E4F19D592733AC4700CFC0E9 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D582733AC4700CFC0E9 /* Factory.swift */; };
+		E4F19D5B2733B3A300CFC0E9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F19D5A2733B3A300CFC0E9 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		476392D419D286C4BDC5A1C1 /* Pods-TrialByWAADSU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrialByWAADSU.release.xcconfig"; path = "Target Support Files/Pods-TrialByWAADSU/Pods-TrialByWAADSU.release.xcconfig"; sourceTree = "<group>"; };
+		489F80D75344C023ED3C25B0 /* Pods_TrialByWAADSU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrialByWAADSU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DAEEC72733E9A300D8EC24 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		E4F19D1927339E8D00CFC0E9 /* TrialByWAADSU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrialByWAADSU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F19D1C27339E8D00CFC0E9 /* TrialByWAADSUApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialByWAADSUApp.swift; sourceTree = "<group>"; };
-		E4F19D1E27339E8D00CFC0E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4F19D1E27339E8D00CFC0E9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E4F19D2027339E8F00CFC0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F19D2327339E8F00CFC0E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4F19D2927339E9000CFC0E9 /* TrialByWAADSUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialByWAADSUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,16 @@
 		E4F19D3327339E9000CFC0E9 /* TrialByWAADSUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialByWAADSUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F19D3727339E9000CFC0E9 /* TrialByWAADSUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialByWAADSUUITests.swift; sourceTree = "<group>"; };
 		E4F19D3927339E9000CFC0E9 /* TrialByWAADSUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialByWAADSUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4F19D4627339EBE00CFC0E9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E4F19D4827339F6400CFC0E9 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		E4F19D4A2733A00100CFC0E9 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		E4F19D4C2733A0E300CFC0E9 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		E4F19D502733A2AC00CFC0E9 /* GeoDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDataFetcher.swift; sourceTree = "<group>"; };
+		E4F19D542733A47700CFC0E9 /* GeoDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDataParser.swift; sourceTree = "<group>"; };
+		E4F19D562733AAB400CFC0E9 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		E4F19D582733AC4700CFC0E9 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		E4F19D5A2733B3A300CFC0E9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FB66235B0399B256E22827D1 /* Pods-TrialByWAADSU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrialByWAADSU.debug.xcconfig"; path = "Target Support Files/Pods-TrialByWAADSU/Pods-TrialByWAADSU.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0922AFF01EE541BD3A197826 /* Pods_TrialByWAADSU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +96,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A69B32FC50B37C2F26362AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB66235B0399B256E22827D1 /* Pods-TrialByWAADSU.debug.xcconfig */,
+				476392D419D286C4BDC5A1C1 /* Pods-TrialByWAADSU.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7AE144CB6DC591670756DFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				489F80D75344C023ED3C25B0 /* Pods_TrialByWAADSU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4DAEEC9273421D500D8EC24 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E4F19D1E27339E8D00CFC0E9 /* MainView.swift */,
+				E4DAEEC72733E9A300D8EC24 /* Spinner.swift */,
+				E4F19D5A2733B3A300CFC0E9 /* MapView.swift */,
+				E4F19D4627339EBE00CFC0E9 /* ViewModel.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E4DAEECB2734224300D8EC24 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				E4F19D4A2733A00100CFC0E9 /* Route.swift */,
+				E4F19D4827339F6400CFC0E9 /* AppState.swift */,
+				E4F19D4C2733A0E300CFC0E9 /* AppError.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		E4DAEECC2734227700D8EC24 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E4F19D502733A2AC00CFC0E9 /* GeoDataFetcher.swift */,
+				E4F19D542733A47700CFC0E9 /* GeoDataParser.swift */,
+				E4F19D562733AAB400CFC0E9 /* ErrorHandler.swift */,
+				E4F19D582733AC4700CFC0E9 /* Factory.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		E4F19D1027339E8D00CFC0E9 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +152,8 @@
 				E4F19D2C27339E9000CFC0E9 /* TrialByWAADSUTests */,
 				E4F19D3627339E9000CFC0E9 /* TrialByWAADSUUITests */,
 				E4F19D1A27339E8D00CFC0E9 /* Products */,
+				7A69B32FC50B37C2F26362AB /* Pods */,
+				7AE144CB6DC591670756DFBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				E4F19D1C27339E8D00CFC0E9 /* TrialByWAADSUApp.swift */,
-				E4F19D1E27339E8D00CFC0E9 /* ContentView.swift */,
+				E4DAEECC2734227700D8EC24 /* Others */,
+				E4DAEECB2734224300D8EC24 /* Types */,
+				E4DAEEC9273421D500D8EC24 /* UI */,
 				E4F19D2027339E8F00CFC0E9 /* Assets.xcassets */,
 				E4F19D2227339E8F00CFC0E9 /* Preview Content */,
 			);
@@ -134,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F19D3D27339E9000CFC0E9 /* Build configuration list for PBXNativeTarget "TrialByWAADSU" */;
 			buildPhases = (
+				9FF67713074CFF0D635B7AE3 /* [CP] Check Pods Manifest.lock */,
 				E4F19D1527339E8D00CFC0E9 /* Sources */,
 				E4F19D1627339E8D00CFC0E9 /* Frameworks */,
 				E4F19D1727339E8D00CFC0E9 /* Resources */,
+				2799C7F7F1318702B0DCF6E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +332,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2799C7F7F1318702B0DCF6E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrialByWAADSU/Pods-TrialByWAADSU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrialByWAADSU/Pods-TrialByWAADSU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrialByWAADSU/Pods-TrialByWAADSU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF67713074CFF0D635B7AE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrialByWAADSU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4F19D1527339E8D00CFC0E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F19D1F27339E8D00CFC0E9 /* ContentView.swift in Sources */,
+				E4F19D1F27339E8D00CFC0E9 /* MainView.swift in Sources */,
+				E4F19D4727339EBE00CFC0E9 /* ViewModel.swift in Sources */,
+				E4F19D552733A47700CFC0E9 /* GeoDataParser.swift in Sources */,
+				E4F19D5B2733B3A300CFC0E9 /* MapView.swift in Sources */,
+				E4F19D572733AAB400CFC0E9 /* ErrorHandler.swift in Sources */,
+				E4F19D4D2733A0E300CFC0E9 /* AppError.swift in Sources */,
 				E4F19D1D27339E8D00CFC0E9 /* TrialByWAADSUApp.swift in Sources */,
+				E4DAEEC82733E9A300D8EC24 /* Spinner.swift in Sources */,
+				E4F19D512733A2AC00CFC0E9 /* GeoDataFetcher.swift in Sources */,
+				E4F19D4B2733A00100CFC0E9 /* Route.swift in Sources */,
+				E4F19D4927339F6400CFC0E9 /* AppState.swift in Sources */,
+				E4F19D592733AC4700CFC0E9 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,13 +545,14 @@
 		};
 		E4F19D3E27339E9000CFC0E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB66235B0399B256E22827D1 /* Pods-TrialByWAADSU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrialByWAADSU/Preview Content\"";
-				DEVELOPMENT_TEAM = MTC3FMJG94;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -442,13 +575,14 @@
 		};
 		E4F19D3F27339E9000CFC0E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476392D419D286C4BDC5A1C1 /* Pods-TrialByWAADSU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrialByWAADSU/Preview Content\"";
-				DEVELOPMENT_TEAM = MTC3FMJG94;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

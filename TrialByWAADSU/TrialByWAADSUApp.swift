@@ -11,7 +11,7 @@ import SwiftUI
 struct TrialByWAADSUApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          MainView(viewModel: Factory.createViewModel())
         }
     }
 }
